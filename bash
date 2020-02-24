@@ -99,5 +99,11 @@ then
 	echo -e "${blk}установка завершена"
 fi
 echo -e "${normal}"
+
+if [ $num = '8' ]
+then
+    git clone https://github.com/artem831/python_script
+
 }
+
 bunner
